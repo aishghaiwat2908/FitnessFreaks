@@ -248,7 +248,7 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: white;
 }
 
 .header-area .main-nav .logo {
@@ -274,7 +274,7 @@ header
   float: right;
   margin-top: 27px;
   margin-right: 0px;
-  background-color: transparent;
+  background-color: white;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -423,7 +423,7 @@ header
 .header-area .main-nav .menu-trigger.active span,
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
+  background-color: white;
   width: 100%;
 }
 
@@ -604,9 +604,9 @@ banner
 
 #bg-video {
     min-width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 120vh;
     object-fit: cover;
     z-index: -1;
 }
@@ -617,8 +617,8 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
-    top: 0;
+    background-color: rgba(0,0,0,0);
+    top: 100;
     left: 0;
     bottom: 7px;
     width: 100%;
